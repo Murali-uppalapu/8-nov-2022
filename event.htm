@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<input type="text" placeholder ="enter name" onchange="operation()"/>
+	<button onclick="demo()">submit</button>
+	<script type="text/javascript">
+		function operation(){
+			console.log("input field triggered me")
+		}
+		function demo(){
+			alert("danger")
+		}
+	</script>
+
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function save(){	
+		/*var m=document.getElementById("event").innerHTML;
+		console.log(m)
+		var u=document.getElementById("name").innerHTML;
+		console.log(u)
+		var user=document.getElementById("user").value;
+		console.log(user)*/
+
+		var group=document.getElementsByClassName("group")
+
+		var list=document.getElementsByTagName("li")
+			console.log(list)
+
+			for(var i=0;i<group.length;i++){
+			console.log(group[i].innerHTML)
+		}
+	}
+	</script>
+
+</head>
+<body>
+	<input id="user"/>
+	<h1 class="group">events in javascript</h1>
+	<p class="group">my name is murali</p>
+	<h1 class="group">events in javascript</h1>
+	<p class="group">my name is murali</p>
+	<h1 class="group">events in javascript</h1>
+	<p class="group">my name is murali</p>
+	<ul>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		<li>murali</li>
+		
+	</ul>
+	<button onclick="save()">submit</button>
+	
+</body>
+</html>
