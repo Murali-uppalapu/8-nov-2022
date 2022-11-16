@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		/*//let method
+		let u=1234;
+		console.log(u);
+		u=true
+		console.log(u)*/
+
+		/*//const method
+		const a=2233;
+		console.log(a)
+		a="good morning"
+		console.log(a)*/
+
+		//mapp method
+		//var f=[11,12,13,14,15];update=[];
+		//var update=f+10
+		/*for(i=0;i<i.length;i++){
+			update[i]=f[i]+10
+		}*/
+
+		/*update=f.map(function(v){
+			//console.log(v)
+			return v+10
+		})
+		console.log(update)*/
+
+		var j=[{id:1,name:"murali",salary:2000000},{id:2,name:"sai",salary:20000},{id:3,name:"teja",salary:200000}]
+		j.map(function(n){
+			console.log(n.name)
+		})
+		var highestSalary=j.filter(function(z){
+			return z.salary>=20000;
+		})
+		console.log(highestSalary)
+	</script>
+</head>
+<body>
+
+</body>
+</html>
