@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+ <html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,3 +33,34 @@
 </body>
 </html>
 
+ 
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<section id="emp" style="display:flex;"></section>
+	<script type="text/javascript">
+		fetch("https://api.nationalize.io?name=nathaniel")
+		.then((res)=>{
+			console.log(res)
+			return res.json()
+		})
+		.then((jsonResponse)=>{
+			console.log(jsonResponse.country)
+			display(jsonResponse.country)
+		})
+		function display(employees) {
+			var group=document.getElementById("emp");
+			for(i=0;i<employees.length;i++){
+				group.innerHTML+=`<div><p>${employees[i].country_id}</p></div>`;
+			}
+		}
+
+	</script>
+</body>
+</html> -->
